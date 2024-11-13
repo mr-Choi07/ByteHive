@@ -12,7 +12,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
   </script>
-  <script href="js/member.js"></script>
   
 </head>
 
@@ -26,7 +25,7 @@
         </a>
 
         <ul class="nav nav-pills">
-          <li class="nav-item"><a href="#" class="nav-link text-black">회사소개</a></li>
+          <li class="nav-item"><a href="introduce.php" class="nav-link text-black">회사소개</a></li>
           <li class="nav-item"><a href="#" class="nav-link text-black">게시판</a></li>
           <li class="nav-item"><a href="#" class="nav-link text-black">로그인</a></li>
           <li class="nav-item"><a href="stipulation.php" class="nav-link active" aria-current="page">회원가입</a></li>

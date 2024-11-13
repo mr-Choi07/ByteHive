@@ -27,7 +27,7 @@
       <img src="img/visual_bg02.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>많은 경험</h5>
-        <p>ByteHive 여러 프로젝트를 전문으로 하고 있으며 많은 경험이 풍부한 회사입니다.</p>
+        <p>ByteHive는 여러 프로젝트를 전문으로 하고 있으며 많은 경험이 풍부한 회사입니다.</p>
       </div>
     </div>
     <div class="carousel-item" data-bs-interval="3000">
