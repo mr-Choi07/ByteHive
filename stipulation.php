@@ -4,7 +4,7 @@ include "inc_header.php";
 
 <script src="js/member.js"></script>
 
-<main>
+<main class="p-5 border rounded-5">
     <h1 class="text-center mt-5">회원 약관 및 개인정보 취급방침 동의</h1>
     <h4>회원 약관</h4>
     <textarea name="" id="" cols="30" rows="30" class="form-control" readonly style="resize: none;">
@@ -41,7 +41,7 @@ include "inc_header.php";
     <div class="form-check mt-2">
   <input class="form-check-input" type="checkbox" value="1" id="chk_member1">
   <label class="form-check-label" for="chk_member1">
-    위 약관에 동의하시겠습니까?
+    위 회원 약관에 동의하시겠습니까?
   </label>
 </div>
 
