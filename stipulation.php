@@ -2,10 +2,12 @@
 include "inc_header.php";
 ?>
 
+<script src="js/member.js"></script>
+
 <main>
     <h1 class="text-center mt-5">회원 약관 및 개인정보 취급방침 동의</h1>
     <h4>회원 약관</h4>
-    <textarea name="" id="" cols="30" rows="10" class="form-control">
+    <textarea name="" id="" cols="30" rows="30" class="form-control" readonly style="resize: none;">
 제 1 장 총칙
     제 1 조 (목적)
         이 약관은「ByteHive」(이하 “사이트”라 칭함)에서 제공하는 인터넷관련서비스(이하 "서비스"라 칭함)를 이용함에 있어 「ByteHive」와 이용자의 권리, 
@@ -37,14 +39,14 @@ include "inc_header.php";
     </textarea>
 
     <div class="form-check mt-2">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="checkbox" value="1" id="chk_member1">
+  <label class="form-check-label" for="chk_member1">
     위 약관에 동의하시겠습니까?
   </label>
 </div>
 
     <h4 class="mt-3">개인정보 취급방침</h4>
-    <textarea name="" id="" cols="30" rows="10" class="form-control">
+    <textarea name="" id="" cols="30" rows="30" class="form-control" readonly style="resize: none;">
 제 2 장 서비스 이용
     계약제 5 조 (서비스 이용 신청)
         회원으로 가입하여 서비스를 이용하기를 희망하는 자는 서비스에서 정한 가입 양식에 따라회원정보를 기입하고, 요청하는 
@@ -94,13 +96,13 @@ include "inc_header.php";
     </textarea>
 
     <div class="form-check mt-2">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
+  <input class="form-check-input" type="checkbox" value="2" id="chk_member2">
+  <label class="form-check-label" for="chk_member2">
     위 개인정보 취급방침에 동의하시겠습니까?
   </label>
 
-  <div class="mt-4 d-flex justify-content-end gap-1">
-    <button class="btn btn-primary">회원가입</button>
+  <div class="mt-4 d-flex justify-content-end gap-2">
+    <button class="btn btn-primary" id="btn_member">회원가입</button>
     <button class="btn btn-secondary">가입취소</button>
   </div>
 
