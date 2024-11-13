@@ -106,6 +106,10 @@ include "inc_header.php";
     <button class="btn btn-secondary">가입취소</button>
   </div>
 
+  <form method="post" name="stipluation_form" action="member_input.php">
+    <input type="hidden" name="chk" value="0">
+  </form>
+
 </main>
 
 <?php
