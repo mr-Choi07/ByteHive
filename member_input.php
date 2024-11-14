@@ -46,8 +46,11 @@ include "inc_header.php";
     </div>
     
     <div class="mt-5 d-flex gap-2">
-        <div><input type="file" name="profile" class="form-control"></div>
-        <img src="images/person.jpg" alt="profile image" class="w-50">
+        <div>
+            <label for="f_photo" class="form-label">프로필 이미지</label>
+            <input type="file" name="profile" class="form-control">
+        </div>
+        <img src="images/person.jpg" alt="profile image" class="w-25">
     </div>
 
     <div class=" mt-3 d-flex justify-content-end gap-2">
