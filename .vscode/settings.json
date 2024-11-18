@@ -1,3 +1,10 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.port": 5501,
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "intelephense.environment.phpVersion": "8.1",
+    "intelephense.stubs": [
+        "PDO",
+        "mysqli",
+        "standard"
+    ]
 }
