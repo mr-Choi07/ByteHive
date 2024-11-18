@@ -18,4 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
         f.chk.value = 1
         f.submit()
     })
+
+    
 })

@@ -28,7 +28,7 @@ include "inc_header.php";
             <small style="color: gray; font-weight: lighter;">6 자리에서 ~ 12 자리 사이의 아이디</small>
         </div>
     </div>
-    <button class="btn btn-secondary mt-2">아이디 중복확인</button>
+    <button class="btn btn-secondary mt-2" id="btn_id_check">아이디 중복확인</button>
 
     <div class="form-group mt-5">
         <div>    
